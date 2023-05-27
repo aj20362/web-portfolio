@@ -29,7 +29,7 @@
     }
     
     p {
-      color: ##000000;
+      color: #000000;
       text-align: justify;
     }
     
@@ -49,45 +49,81 @@
       object-position: center;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
+    
+    nav {
+      background-color: #29395C;
+      margin-bottom: 20px;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+    }
+    
+    nav li {
+      margin: 0 10px;
+    }
+    
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      transition: color 0.3s ease;
+    }
+    
+    nav a:hover {
+      color: #E6E6E6;
+    }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>AJ Arbutante</h1>
     
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    
     <div class="section photo">
       <img src="pic.jpg" alt="Your Photo">
     </div>
     
-    <div class="section">
+    <div id="about" class="section">
       <h2>About Me</h2>
       <p>Hello! I am Al Joshua T. Arbutante, but I prefer to be called AJ. I am a current 3rd Year student taking up Bachelor of Science in Computer Science. I am an outgoing person, so if you need someone to talk to, I'm here. I love to play basketball and valorant. I like fun and challenging activities.</p>
     </div>
     
-    <div class="section">
+    <div id="experience" class="section">
       <h2>Experience</h2>
-      <p>•President - Xavier Computer Enthusiasts' League (2022-2023)</p>
-      <p>•Sponsorship Director - Quantum Information Technology Convention (2022-2023)</p>
-      <p>•Member - DEVCON CDO (2022-2023)</p>
+      <p>• President - Xavier Computer Enthusiasts' League (2022-2023)</p>
+      <p>• Sponsorship Director - Quantum Information Technology Convention (2022-2023)</p>
+      <p>• Member - DEVCON CDO (2022-2023)</p>
     </div>
     
-    <div class="section">
+    <div id="skills" class="section">
       <h2>Skills</h2>
-      <p>•Leadership Skills</p>
-      <p>•Communication Skills</p>
-      <p>•Problem Solving Skills</p>
-      <p>•Computer literate</p>
-      <p>•Proficiency in Microsoft Applications</p>
-      <p>•Fluent in the English Language</p>
-      <p>•Excellent Time Management</p>
+      <p>• Leadership Skills</p>
+      <p>• Communication Skills</p>
+      <p>• Problem Solving Skills</p>
+      <p>• Computer literate</p>
+      <p>• Proficiency in Microsoft Applications</p>
+      <p>• Fluent in the English Language</p>
+      <p>• Excellent Time Management</p>
     </div>
     
-    <div class="section">
+    <div id="education" class="section">
       <h2>Education</h2>
       <b>Higher Education Undergraduate</b>
-      <p>Xavier University-Ateneo de Cagayan / Bachelor of Science in Computer
-        Science (July 2020 - present)</p>
-        <br>
+      <p>Xavier University-Ateneo de Cagayan / Bachelor of Science in Computer Science (July 2020 - present)</p>
+      <br>
       <b>Upper Secondary Education</b>
       <p>Oro Christian Grace School / Senior High School (June 2017 - March 2019)</p>
       <br>
@@ -96,10 +132,9 @@
       <br>
       <b>Primary Education</b>
       <p>Oro Christian Grace School / Elementary (June 2005 - March 2013)</p>
-      <br>
     </div>
     
-    <div class="section">
+    <div id="contact" class="section">
       <h2>Contact</h2>
       <p>(+63) 916-656-4929</p>
       <p>ajarbu1@gmail.com</p>
